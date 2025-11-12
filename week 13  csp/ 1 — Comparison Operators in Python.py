@@ -45,7 +45,7 @@ if score >= 60:
 else:
     print("you did not pass the test")
 password = input("enter your password:")
-if len(password) >= 8 and any(char.isdigit() for char in password):
+if len(password) >= 8 and any(char.isdigit () for char in password):
     print("password is valid")
 else:
-    ("password is invalid")
+    print("password is invalid")
